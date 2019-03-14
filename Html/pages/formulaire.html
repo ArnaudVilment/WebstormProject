@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="../css/form.css" />
+        <script type="application/javascript"
+                src="../js/form.js"
+        ></script>
+        <script type="application/javascript"
+                src="../js/form.js"
+        ></script>
+    </head>
+    <body>
+        <div id="form">
+            <form action="inscription" method="POST">
+                <fieldset class="field">
+                    <legend class="field">Inscription</legend>
+                    <input id="colorBlock" class="check" type="radio" name="civilite" id="civilite" /><label for="civilite">Mme</label>
+                    <input class="check2" type="radio" name="civilite" id="civilite" /><label for="civilite">Mr</label><br/>
+                    <label for="nom">Nom :</label><br />
+                    <input class="class2" name="nom" id="nom" maxlength="10" placeholder="Votre nom"/><br />
+                    <label for="prenom">Prénom :</label><br />
+                    <input class="class2" name="prenom" id="prenom" placeholder="Votre prénom"/><br />
+                    <label for="dateNaissance">Date de naissance :</label><br />
+                    <input class="class2" type="date" name="dateNaissance" id="dateNaissance"/><br />
+                    <label for="adr">Adresse :</label><br />
+                    <input class="class2" name="adr" id="adr" value="" placeholder="Votre adresse"/><br />
+                    <label for="ville">Ville :</label><br />
+                    <input class="class2" name="ville" id="ville" placeholder="Votre ville"/><br />
+                    <label for="dep">Département :</label><br />
+                    <select class="class2" id="dep" name="dep">
+                        <option value=""></option>
+                        <option value="haut_de_france">Haut de France</option>
+                        <option value="paca">Paca</option>
+                    </select><br />
+                    <label for="pays">Pays :</label><br />
+                    <select class="class2" id="pays" name="pays">
+                        <option value="fr" selected>France</option>
+                        <option value="al">Allemagne</option>
+                    </select><br />
+                    <label for="tel">Téléphone :</label><br />
+                    <input class="class2" type="tel" name="tel" id="tel"  placeholder="Votre numéro de téléphone"/><br />
+                    <label for="mail">Votre email :</label><br />
+                    <input class="class2" type="email" name="mail" id="mail"  placeholder="Votre eMail"/><br />
+                    <label for="com">Vos commentaires :</label><br />
+                    <textarea class="class2" name="com" id="com" rows=4 cols=40></textarea><br />
+                </fieldset> </form>
+                    <div id="bt">
+                        <button class="inp" id="envoyer" onclick="validerForm()">Envoyer</button>
+                        <input  class="inp" type="reset" value="Annuler" id="reset">
+                    </div>
+
+
+        </div>
+    </body>
+</html>

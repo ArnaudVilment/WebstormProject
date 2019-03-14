@@ -1,0 +1,78 @@
+/* id est unique */
+/* la class peut etre multiple */
+
+/*
+body.b2 {
+    background-color: darkgoldenrod;
+}*/
+p {
+    color:mediumaquamarine;
+}
+/*h1.index {
+    margin-left: 700px;
+    width: 300px;
+    background-color: brown;
+    text-decoration: blueviolet;
+    text-decoration-line: underline;
+    border: cornflowerblue dashed 6px;
+}*/
+h1.page2 {
+    text-align: left;
+    background-color: blueviolet;
+}
+#p2 {
+    height: 120px;
+    width: 600px;
+    background-color: blue;
+    border-radius: 70px;
+}
+p.p2 {
+    height: 220px;
+    width: 500px;
+    background-color: aqua;
+}
+img.img1 {
+    height: 500px;
+    width: 500px;
+}
+/* image page 2 */
+img.img2 {
+    margin-top: -700px;
+    margin-left: 650px;
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+}
+/*
+.divp1 {
+    background-color: blueviolet;
+    margin-top: -1000px;
+    margin-left: 0px;
+}*/
+
+
+#haut {
+    text-align: center;
+    background-color: brown;
+    text-decoration: blueviolet;
+    text-decoration-line: underline;
+    border: cornflowerblue dashed 6px;
+}
+#menu {
+    margin-top: 10px;
+    height: 1000px;
+    width: 200px;
+    background-color: cadetblue;
+}
+#page {
+    height: 1000px;
+    width: 1655px;
+    background-color: coral;
+    margin-top: -1000px;
+    margin-left: 210px;
+}
+#image {
+    margin-top: 300px;
+    margin-left: 260px;
+}
+

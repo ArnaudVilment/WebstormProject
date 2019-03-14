@@ -1,0 +1,17 @@
+h1 {
+    background-color: cornflowerblue;
+}
+h2 {
+    background-color: cadetblue;
+}
+p {
+    background-color: chocolate;
+    border: aqua dashed;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+}
+div {
+    background-color: aqua;
+}

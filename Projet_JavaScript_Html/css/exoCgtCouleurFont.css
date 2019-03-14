@@ -1,0 +1,23 @@
+#paraph{
+    width: 800px;
+    height: 300px;
+}
+.rouge{
+    background-color: red;
+}
+
+.vert{
+    background-color: green;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.rose{
+    background-color: deeppink;
+}

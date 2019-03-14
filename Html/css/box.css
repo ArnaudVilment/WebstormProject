@@ -1,0 +1,41 @@
+p {
+    height: 250px;
+    border: 5px blue solid;
+
+    color: cornflowerblue;
+}
+
+#para2 {
+    width: 800px;
+}
+#para3 {
+    width: 800px;
+}
+
+p.para4 {
+    width: 900px;
+    background-color: antiquewhite;
+}
+
+h3.para4 {
+    width: 900px;
+    background-color: coral;
+}
+
+h3.para4:hover {
+    opacity: 0.5;
+}
+
+#lien {
+    font-size: 30px;
+    color: aquamarine;
+    border: 3px dashed;
+    background-color: crimson;
+}
+
+/* lors du survole avec la souris */
+#lien:hover {
+    font-size: 50px;
+    color: cornflowerblue;
+    opacity: 0.5;
+}

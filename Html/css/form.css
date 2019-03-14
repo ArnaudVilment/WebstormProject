@@ -1,0 +1,63 @@
+#form {
+    height: 450px;
+    width: 270px;
+    margin: auto;
+}
+#bt {
+    margin-left: 2px;
+    width: 300px;
+    font-family: fantasy;
+}
+label {
+    font-size: 15px;
+    font-style: normal;
+    font-family: fantasy;
+    color: black;
+    padding-bottom: 50px;
+}
+.class2 {
+    width: 260px;
+    background-color: darkseagreen;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.field {
+    color: darkseagreen;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: fantasy;
+    border: outset 3px darkseagreen;
+}
+.check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.check2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 85px;
+}
+.inp {
+    background-color: darkseagreen;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: outset 3px darkseagreen;
+    padding: 3px;
+    font-family: fantasy;
+}
+#envoyer{
+    mask-border-mode: inherit;
+}
+#reset{
+    mask-border-mode: inherit;
+}
+#colorBlock{
+    background: #ffe8e6;
+    color: #997a79;
+    mask-border-mode: inherit;
+}
+.erreur {
+    border: 1px red solid;
+}
